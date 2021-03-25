@@ -1,0 +1,432 @@
+body {
+    width: 1918px;
+}
+/* logo */
+/* .phanlogo {
+    display: flex;
+    border: 1px black solid;
+    background: #1c2f4d;
+    width: 1299px;
+    border-radius: 15px 100px 100px 15px;
+    margin: auto;
+    padding: 21px 20px 20px 62px;
+    margin-top: 58px;
+    color: white;
+    height: 107px;
+} */
+/* logo h1 */
+@font-face{
+    font-family: biko;
+    src: url('font-face/Biko/Biko_Black.otf');
+}
+.logo h1 {
+    font-family: biko;
+    font-size: 38px;
+}
+/* header */
+.heaer{
+    height: 59px;
+}
+.tren{
+    display:flex;
+    height: 108px;
+    background-color: antiquewhite;
+    padding: 28px;
+}
+.headetren {
+    margin-top: 18px;
+    width: 35%;
+}
+.headetren a{
+    margin-right: 25px;
+}
+/* slide nen */
+.slidenen{
+    background-image: url('image/hinh4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 671px;
+}
+.nenxam {
+    background-color: #272626;
+    opacity: 0.7;
+    height: 671px;
+    padding: 17%;
+}
+.chunho{
+    width: 20%;
+    color: #d7bd73;
+    margin-left: 11%;
+}
+.chunho p {
+    width: 153%;
+    font-size: 20px;
+}
+.nutonline {
+    color: #fbfbfb;
+    border-radius: 30px;
+    height: 42px;
+    border: 1px #fff solid;
+    padding: 10px;
+    margin-left: 11%;
+}
+/*  main */
+.main {
+    margin-top: 38%;
+    border: 1px black solid;
+}
+.chutrang h1 {
+    background: aliceblue;
+    margin: 15px 0px 10px 15%;
+    width: 18%;
+    color: white;
+}
+/* vòng tròn hồng */
+.vongtron {
+    padding: 10px;
+}
+.tronhong {
+    border: 25px pink solid;
+    border-radius: 50%;
+    width: 205px;
+    height: 205px;
+    margin-left: 25px;
+}
+.tronhong img {
+    margin: 38px;
+    width: 72px;
+    height: 72px;
+}
+
+.tronso {
+    border-radius: 50%;
+    height: 71px;
+    width: 71px;
+    /* background: #1c2f4d; */
+    margin: -28% 0px 56px 68%;
+   
+}
+.tronso b {
+    color: white;
+    border-radius: 50%;
+    padding: 71px;
+    width: 71px;
+    background: #1c2f4d;
+    padding: 20px 25px 20px 25px;;
+    margin-left: 8px;
+}
+.chu {
+    text-align: center;
+}
+/* featured courses */
+.featured{
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 65px;
+}
+i.fa.fa-graduation-cap {
+    color: #f2f2f2;
+    font-size: 73px;
+}
+.chutoh2 h2{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 53px;
+}
+.chunhop p{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding-bottom: 11%;
+    color: #ababab;
+}
+.nentron {
+    margin-top: -11px;
+}
+.nentron img {
+    width: 100%;
+    height: 500px;
+}
+.hinhanhfe{
+    height: 558px;
+    margin-top: -59%;
+}
+.hinhanh img{
+    width: 370px;
+    height: 241px;
+}
+.khungnho {
+    margin: auto;
+    width: 80%;
+    font-size: 22px;
+}
+
+.cotinh {
+    background: white;
+    width: 105%;
+    border-radius: 11px;
+}
+.star img{
+    width: 119px;
+    height: 35px;
+    margin: 30px 0px -13px 0px;
+}
+.claschuto h2{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.khac p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ababab;
+}
+.phude {
+    display: flex;
+    padding: 5px 0px 26px 26px;
+}
+.heart {
+    border: 1px #e3e3e3 solid;
+    border-radius: 15%;
+    margin-left: 32%;
+    margin-top: -10px;
+    padding: 4px 6px 0px 6px;
+    font-size: 22px;
+    color: #939393;
+}
+.cham {
+    border: 1px solid #e3e3e3;
+    width: 15px;
+    background: #e3e3e3;
+    height: 15px;
+    z-index: 2;
+    border-radius: 50%;
+}
+hr.hrr {
+    border: 1px dashed #e3e3e3;
+    margin-top: -8px;
+  }
+
+  .tien {
+    width: 91px;
+    height: 81px;
+    margin: -87% 10px 24% 70%;
+   
+}
+.tien b {
+    background: #d7bd73;
+ 
+   font-size: 35px;
+    padding: 25px 20px 25px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+/* khoi3 */
+.khoi3{
+    padding-top: 118px;
+    background-color: #f6f9fb;
+}
+.row1{
+    padding-bottom: 10px;
+}
+.hinhkhoi3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -11px;
+    height: 274px;
+    width: 274px;
+    font-size: 30px;
+    border-radius: 4px;
+}
+.artistic {
+    background-image: url(image/hinh17.png);
+}
+.music{
+    background-image: url(image/hinh18.png);
+}
+.pts{
+    background-image: url(image/hinh7.png);
+}
+.design{
+    background-image: url(image/hinh3.png);
+}
+.concepts{
+    background-image: url(image/hinh1.png);
+}
+.exercise{
+    background-image: url(image/hinh2.png);
+}
+.xam {
+    background: #000000;
+    opacity: 0.6;
+    padding: 30%;
+    height: 274px;
+    color: white;
+}
+.so8 p {
+    color: white;
+    font-size: 20px;
+    margin: -23% 15px 52px 45%;
+    border: 1px solid;
+    border-radius: 11px;
+    width: 45%;
+    position: absolute;
+    z-index: 9;
+    font-size: 20px;
+    text-align: center;
+    background: #d5bc72;
+    padding: 10px;
+}
+
+.chuto h2 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+/* khoi 3 */
+.letter {
+    position: relative;
+    left: 0;
+    background: antiquewhite;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 620px;
+}
+.man {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    z-index: 1;
+    left: 0;
+}
+.man img {
+    width: 516px;
+    height: 567px;
+    margin-left: 80%;
+}
+.noidungthu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: aliceblue;
+    top: 164px;
+    text-align: center;
+    font-size: 18px;
+}
+.noidungthu h2{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+}
+.noidungthu p{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px;
+}
+.noidungform {
+    position: relative;
+    height: 90px;
+    width: 755px;
+    z-index: 1;
+    left: 11%;
+}
+.formm{
+    position: absolute;
+    height:78px;
+    width: 755px;
+}
+.formm input {
+    width: 100%;
+    border: 2px #dcdcdc solid;
+    padding: 43px;
+    height: 115%;
+    border-radius: 66px;
+}
+.subscribe {
+    font-size: 22px;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 12px;
+    width: 147px;
+    top: 60%;
+    left: 76%;;
+    background-color: #d5bc72;
+    color: white;
+}
+/* row den */
+/* cot trai */
+.xanh{
+    background-color: #1c2f4d;
+    color: white;
+}
+.chuhinh {
+    width: 613px;
+    height: 397px;
+    margin: 0px auto;
+    margin-top: 76px;
+}
+.chuhinhh2 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.chuhinhimg {
+    width: 117px;
+    height: 75px;
+}
+.chuhinhp{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px;
+} 
+.cothinh{
+    padding-top: 9px;
+}
+.col-6.col-xs-12.hinhman {
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+/* nut */
+.nut {
+    width: 833px;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    color: #a89767;
+}
+.nutleft {
+    border: 1px #a89767 solid;
+    height: 55px;
+    width: 201px;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 49px;
+}
+.nutright {
+    margin-left: 56%;
+    font-size: 18px;
+    padding: 18px;
+}
+/* cot phai */
+.anhnen{
+    background-image: url(image/but.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+}
+.anhden {
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+    width: 102%;
+}
+.ngoisao{
+    width: 101px;
+    height: 90px;
+}
